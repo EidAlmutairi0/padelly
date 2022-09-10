@@ -1,5 +1,6 @@
-import 'package:flutter/material.dart';
 import 'package:convex_bottom_bar/convex_bottom_bar.dart';
+import 'package:flutter/material.dart';
+
 import 'Screens/Centers/Centers.dart';
 import 'Screens/Map/Map.dart';
 import 'Screens/Profile/Profile.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSwatch().copyWith(
-          primary: const Color(0xFF00a08b),
+          primary: const Color(0xFF00A08B),
         ),
       ),
       home: MyHomePage(),
